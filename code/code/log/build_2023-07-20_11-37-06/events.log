@@ -1,0 +1,380 @@
+[0.000000] (-) TimerEvent: {}
+[0.006750] (dummy_node2) JobQueued: {'identifier': 'dummy_node2', 'dependencies': OrderedDict()}
+[0.006900] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.006927] (dummy_node1) JobQueued: {'identifier': 'dummy_node1', 'dependencies': OrderedDict([('interfaces', '/home/joannerizkallah/assignment3/install/interfaces')])}
+[0.006951] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.017573] (dummy_node2) JobStarted: {'identifier': 'dummy_node2'}
+[0.060234] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.060637] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.060696] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joannerizkallah/assignment3/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/joannerizkallah/assignment3/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'joannerizkallah'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joannerizkallah'), ('OLDPWD', '/home/joannerizkallah/assignment3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joannerizkallah'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joannerizkallah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1693,unix/Ubuntu22:/tmp/.ICE-unix/1693'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11cb76e4_56c7_48c2_9636_8d54f05fc494'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9RP371'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joannerizkallah/assignment3/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099117] (dummy_node2) JobProgress: {'identifier': 'dummy_node2', 'progress': 'cmake'}
+[0.103144] (dummy_node2) JobProgress: {'identifier': 'dummy_node2', 'progress': 'build'}
+[0.103811] (-) TimerEvent: {}
+[0.104137] (dummy_node2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joannerizkallah/assignment3/build/dummy_node2', '--', '-j4', '-l4'], 'cwd': '/home/joannerizkallah/assignment3/build/dummy_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'joannerizkallah'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joannerizkallah'), ('OLDPWD', '/home/joannerizkallah/assignment3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joannerizkallah'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joannerizkallah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1693,unix/Ubuntu22:/tmp/.ICE-unix/1693'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11cb76e4_56c7_48c2_9636_8d54f05fc494'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9RP371'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joannerizkallah/assignment3/build/dummy_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.118206] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.206870] (-) TimerEvent: {}
+[0.256772] (dummy_node2) CommandEnded: {'returncode': 0}
+[0.307300] (-) TimerEvent: {}
+[0.374619] (dummy_node2) JobProgress: {'identifier': 'dummy_node2', 'progress': 'install'}
+[0.386938] (dummy_node2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joannerizkallah/assignment3/build/dummy_node2'], 'cwd': '/home/joannerizkallah/assignment3/build/dummy_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'joannerizkallah'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joannerizkallah'), ('OLDPWD', '/home/joannerizkallah/assignment3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joannerizkallah'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joannerizkallah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1693,unix/Ubuntu22:/tmp/.ICE-unix/1693'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11cb76e4_56c7_48c2_9636_8d54f05fc494'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9RP371'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joannerizkallah/assignment3/build/dummy_node2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.401652] (dummy_node2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.402937] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/package_run_dependencies/dummy_node2\n'}
+[0.403582] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/parent_prefix_path/dummy_node2\n'}
+[0.404333] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/ament_prefix_path.sh\n'}
+[0.404867] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/ament_prefix_path.dsv\n'}
+[0.405168] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/path.sh\n'}
+[0.406145] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/path.dsv\n'}
+[0.406443] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.bash\n'}
+[0.406615] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.sh\n'}
+[0.406892] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.zsh\n'}
+[0.407164] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.dsv\n'}
+[0.407375] (-) TimerEvent: {}
+[0.407810] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/package.dsv\n'}
+[0.407908] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/packages/dummy_node2\n'}
+[0.407978] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/cmake/dummy_node2Config.cmake\n'}
+[0.408042] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/cmake/dummy_node2Config-version.cmake\n'}
+[0.408104] (dummy_node2) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/package.xml\n'}
+[0.409115] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.413947] (dummy_node2) CommandEnded: {'returncode': 0}
+[0.414563] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.417730] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.471193] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.510908] (-) TimerEvent: {}
+[0.522878] (dummy_node2) JobEnded: {'identifier': 'dummy_node2', 'rc': 0}
+[0.612186] (-) TimerEvent: {}
+[0.721209] (-) TimerEvent: {}
+[0.832033] (-) TimerEvent: {}
+[0.932726] (-) TimerEvent: {}
+[1.013051] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.033348] (-) TimerEvent: {}
+[1.134940] (-) TimerEvent: {}
+[1.235641] (-) TimerEvent: {}
+[1.307638] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.344504] (-) TimerEvent: {}
+[1.459192] (-) TimerEvent: {}
+[1.562018] (-) TimerEvent: {}
+[1.681645] (-) TimerEvent: {}
+[1.783916] (-) TimerEvent: {}
+[1.897836] (-) TimerEvent: {}
+[2.001329] (-) TimerEvent: {}
+[2.058513] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.088666] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.102056] (-) TimerEvent: {}
+[2.118121] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.118296] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.118369] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.162851] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.202697] (-) TimerEvent: {}
+[2.214676] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.222450] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/joannerizkallah/assignment3/build/interfaces\n'}
+[2.275076] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.291311] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[2.293497] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[2.302985] (-) TimerEvent: {}
+[2.305379] (interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaces\n'}
+[2.311186] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.312895] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.317937] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.329850] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_typesupport_c\n'}
+[2.341813] (interfaces) StdoutLine: {'line': b'[ 32%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[2.342030] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.374429] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.374891] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.384176] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.393121] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.396292] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.403219] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[2.403434] (-) TimerEvent: {}
+[2.435610] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[2.469467] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[2.488719] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py\x1b[0m\n'}
+[2.541704] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[2.541913] (-) TimerEvent: {}
+[2.575975] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.593805] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.599555] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.601647] (interfaces) StdoutLine: {'line': b'[ 87%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.618116] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.620386] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[2.665581] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.665763] (-) TimerEvent: {}
+[2.670751] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[2.671848] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[2.671923] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[2.673728] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.675025] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.710245] (interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[2.767514] (-) TimerEvent: {}
+[2.785319] (interfaces) CommandEnded: {'returncode': 0}
+[2.867934] (-) TimerEvent: {}
+[2.968976] (-) TimerEvent: {}
+[3.039045] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[3.040620] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joannerizkallah/assignment3/build/interfaces'], 'cwd': '/home/joannerizkallah/assignment3/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'joannerizkallah'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joannerizkallah'), ('OLDPWD', '/home/joannerizkallah/assignment3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joannerizkallah'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joannerizkallah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1693,unix/Ubuntu22:/tmp/.ICE-unix/1693'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11cb76e4_56c7_48c2_9636_8d54f05fc494'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9RP371'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joannerizkallah/assignment3/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.056069] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.056325] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[3.056420] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces\n'}
+[3.056488] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.056554] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.056741] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action\n'}
+[3.056832] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/custom.h\n'}
+[3.057064] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[3.057144] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__type_support.h\n'}
+[3.057209] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__struct.h\n'}
+[3.057270] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__functions.h\n'}
+[3.057331] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__functions.c\n'}
+[3.057390] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[3.057449] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[3.058461] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[3.058593] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces\n'}
+[3.058695] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.058800] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.058900] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action\n'}
+[3.059282] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[3.059462] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__rosidl_typesupport_fastrtps_c.h\n'}
+[3.059628] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.059790] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces\n'}
+[3.060059] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.060199] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.060366] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action\n'}
+[3.060947] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[3.061024] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__rosidl_typesupport_introspection_c.h\n'}
+[3.061089] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__type_support.c\n'}
+[3.061262] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.061331] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[3.061392] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces\n'}
+[3.061455] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action\n'}
+[3.062343] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[3.062486] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__struct.hpp\n'}
+[3.062557] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__traits.hpp\n'}
+[3.062619] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__builder.hpp\n'}
+[3.062680] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/custom.hpp\n'}
+[3.062741] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces\n'}
+[3.062799] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg\n'}
+[3.062871] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.062931] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action\n'}
+[3.062988] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[3.063045] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.063102] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps\n'}
+[3.063159] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.063216] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces\n'}
+[3.063283] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action\n'}
+[3.063341] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[3.063400] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__type_support.cpp\n'}
+[3.063458] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.063516] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.063573] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[3.063631] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[3.063689] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[3.063747] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[3.063838] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.063908] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.063970] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.064029] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.064094] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[3.064154] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.064212] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.064271] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action\n'}
+[3.064328] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_custom.py\n'}
+[3.064385] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py\n'}
+[3.064442] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_custom_s.c\n'}
+[3.064499] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.064557] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[3.064619] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.064687] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[3.064753] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.064811] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.069498] (-) TimerEvent: {}
+[3.100850] (interfaces) StdoutLine: {'line': b"Listing '/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[3.101291] (interfaces) StdoutLine: {'line': b"Compiling '/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[3.101428] (interfaces) StdoutLine: {'line': b"Listing '/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...\n"}
+[3.107404] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.108360] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.108474] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.108546] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[3.108614] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/action/Custom.idl\n'}
+[3.108678] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/action/Custom.action\n'}
+[3.108739] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[3.108800] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[3.109498] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[3.110821] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[3.111024] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/path.sh\n'}
+[3.111112] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[3.111180] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/local_setup.bash\n'}
+[3.111243] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/local_setup.sh\n'}
+[3.111303] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[3.111368] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[3.111426] (interfaces) StdoutLine: {'line': b'-- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/package.dsv\n'}
+[3.111764] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[3.111858] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.111924] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.112715] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.112797] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.112863] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.115794] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.115894] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.115976] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.116040] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.135131] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.140701] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.140830] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.140894] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.140952] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.141019] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.142824] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.143595] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.147150] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.147741] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.151036] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.151553] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.152457] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.152666] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.152831] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.153033] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[3.153182] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[3.153382] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/package.xml\n'}
+[3.153532] (interfaces) CommandEnded: {'returncode': 0}
+[3.170334] (-) TimerEvent: {}
+[3.270835] (-) TimerEvent: {}
+[3.371469] (-) TimerEvent: {}
+[3.432957] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[3.434068] (dummy_node1) JobStarted: {'identifier': 'dummy_node1'}
+[3.496283] (dummy_node1) JobProgress: {'identifier': 'dummy_node1', 'progress': 'cmake'}
+[3.496384] (-) TimerEvent: {}
+[3.501690] (dummy_node1) JobProgress: {'identifier': 'dummy_node1', 'progress': 'build'}
+[3.530389] (dummy_node1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joannerizkallah/assignment3/build/dummy_node1', '--', '-j4', '-l4'], 'cwd': '/home/joannerizkallah/assignment3/build/dummy_node1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'joannerizkallah'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joannerizkallah/assignment3/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joannerizkallah'), ('OLDPWD', '/home/joannerizkallah/assignment3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joannerizkallah'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joannerizkallah'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1693,unix/Ubuntu22:/tmp/.ICE-unix/1693'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/11cb76e4_56c7_48c2_9636_8d54f05fc494'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9RP371'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joannerizkallah/assignment3/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joannerizkallah/assignment3/build/dummy_node1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=06481376c87102876348697b64b8d6f9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/joannerizkallah/assignment3/install/interfaces:/opt/ros/humble')]), 'shell': False}
+[3.599680] (-) TimerEvent: {}
+[3.679556] (dummy_node1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_server\x1b[0m\n'}
+[3.701441] (-) TimerEvent: {}
+[3.708754] (dummy_node1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dummy_server\x1b[0m\n'}
+[3.716097] (dummy_node1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dummy_cpp_node\x1b[0m\n'}
+[3.732644] (dummy_node1) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o\x1b[0m\n'}
+[3.737295] (dummy_node1) StdoutLine: {'line': b'[ 37%] Built target dummy_server\n'}
+[3.737856] (dummy_node1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dummy_exe.dir/src/dummy_cpp_node.cpp.o\x1b[0m\n'}
+[3.756409] (dummy_node1) StdoutLine: {'line': b'[ 75%] Built target dummy_cpp_node\n'}
+[3.802579] (-) TimerEvent: {}
+[3.806548] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kinterfaces/action/custom.hpp: No such file or directory\n'}
+[3.806745] (dummy_node1) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"interfaces/action/custom.hpp"\x1b[m\x1b[K\n'}
+[3.806819] (dummy_node1) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.806882] (dummy_node1) StderrLine: {'line': b'compilation terminated.\n'}
+[3.809224] (dummy_node1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dummy_exe.dir/build.make:76: CMakeFiles/dummy_exe.dir/src/dummy_cpp_node.cpp.o] Error 1\n'}
+[3.809348] (dummy_node1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/dummy_exe.dir/all] Error 2\n'}
+[3.809416] (dummy_node1) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.905142] (-) TimerEvent: {}
+[4.014298] (-) TimerEvent: {}
+[4.115416] (-) TimerEvent: {}
+[4.222504] (-) TimerEvent: {}
+[4.324698] (-) TimerEvent: {}
+[4.426896] (-) TimerEvent: {}
+[4.528159] (-) TimerEvent: {}
+[4.630389] (-) TimerEvent: {}
+[4.735896] (-) TimerEvent: {}
+[4.837160] (-) TimerEvent: {}
+[4.938378] (-) TimerEvent: {}
+[5.045016] (-) TimerEvent: {}
+[5.163576] (-) TimerEvent: {}
+[5.270793] (-) TimerEvent: {}
+[5.378333] (-) TimerEvent: {}
+[5.479422] (-) TimerEvent: {}
+[5.580715] (-) TimerEvent: {}
+[5.686839] (-) TimerEvent: {}
+[5.792543] (-) TimerEvent: {}
+[5.896501] (-) TimerEvent: {}
+[6.000586] (-) TimerEvent: {}
+[6.101163] (-) TimerEvent: {}
+[6.243016] (-) TimerEvent: {}
+[6.352344] (-) TimerEvent: {}
+[6.456497] (-) TimerEvent: {}
+[6.567283] (-) TimerEvent: {}
+[6.668060] (-) TimerEvent: {}
+[6.776508] (-) TimerEvent: {}
+[6.888224] (-) TimerEvent: {}
+[6.989240] (-) TimerEvent: {}
+[7.095980] (-) TimerEvent: {}
+[7.196893] (-) TimerEvent: {}
+[7.302442] (-) TimerEvent: {}
+[7.408681] (-) TimerEvent: {}
+[7.517760] (-) TimerEvent: {}
+[7.523661] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kaction_cpp::CustomActionServer::CustomActionServer(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.523823] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:31:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kstod\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.523897] (dummy_node1) StderrLine: {'line': b'   31 |  this->get_parameter("default_max_linear_velocity").as_string().\x1b[01;31m\x1b[Kstod\x1b[m\x1b[K();\n'}
+[7.523963] (dummy_node1) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.524023] (dummy_node1) StderrLine: {'line': b'\n'}
+[7.524082] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse action_cpp::CustomActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Custom_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.524143] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:40:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.524204] (dummy_node1) StderrLine: {'line': b'   40 |     \x1b[01;35m\x1b[Kstd::shared_ptr<const Custom::Goal> goal\x1b[m\x1b[K)\n'}
+[7.524260] (dummy_node1) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[7.535968] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid action_cpp::CustomActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Custom> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.536339] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:88:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator-\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<double>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[7.536427] (dummy_node1) StderrLine: {'line': b'   88 |       distanceToTarget_ = \x1b[32m\x1b[Kdistance_\x1b[m\x1b[K \x1b[01;31m\x1b[K-\x1b[m\x1b[K \x1b[34m\x1b[K(elapsed_seconds*velocity_)\x1b[m\x1b[K;\n'}
+[7.536496] (dummy_node1) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.536560] (dummy_node1) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K|\x1b[m\x1b[K                           \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[7.536629] (dummy_node1) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kdouble\x1b[m\x1b[K                      \x1b[34m\x1b[Kstd::chrono::duration<double>\x1b[m\x1b[K\n'}
+[7.536691] (dummy_node1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[7.537003] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[7.537067] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[7.537127] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[7.537184] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.537242] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:560:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.537312] (dummy_node1) StderrLine: {'line': b'  560 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const reverse_iterator<_IteratorL>& __x,\n'}
+[7.537371] (dummy_node1) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.537437] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:560:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.537496] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:88:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.537561] (dummy_node1) StderrLine: {'line': b'   88 |       distanceToTarget_ = distance_ - (elapsed_seconds*velocity_\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.537619] (dummy_node1) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.537675] (dummy_node1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[7.537732] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[7.537787] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[7.537849] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[7.537905] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.537961] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1639:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.538021] (dummy_node1) StderrLine: {'line': b' 1639 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const move_iterator<_IteratorL>& __x,\n'}
+[7.538078] (dummy_node1) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.538135] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1639:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.538193] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:88:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.538252] (dummy_node1) StderrLine: {'line': b'   88 |       distanceToTarget_ = distance_ - (elapsed_seconds*velocity_\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.538310] (dummy_node1) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.538367] (dummy_node1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/this_thread_sleep.h:38\x1b[m\x1b[K,\n'}
+[7.538423] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/thread:44\x1b[m\x1b[K,\n'}
+[7.538482] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:3\x1b[m\x1b[K:\n'}
+[7.538539] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:660:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.538601] (dummy_node1) StderrLine: {'line': b'  660 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const duration<_Rep1, _Period1>& __lhs,\n'}
+[7.538659] (dummy_node1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.538716] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:660:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.538792] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:88:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.538861] (dummy_node1) StderrLine: {'line': b'   88 |       distanceToTarget_ = distance_ - (elapsed_seconds*velocity_\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.538919] (dummy_node1) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.538976] (dummy_node1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/this_thread_sleep.h:38\x1b[m\x1b[K,\n'}
+[7.539038] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/thread:44\x1b[m\x1b[K,\n'}
+[7.539095] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:3\x1b[m\x1b[K:\n'}
+[7.539152] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1030:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Clock, class _Dur1, class _Rep2, class _Period2> constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::duration<_Rep2, _Period2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.539216] (dummy_node1) StderrLine: {'line': b' 1030 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const time_point<_Clock, _Dur1>& __lhs,\n'}
+[7.539279] (dummy_node1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.539335] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1030:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.539392] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:88:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::time_point<_Clock, _Duration1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.539450] (dummy_node1) StderrLine: {'line': b'   88 |       distanceToTarget_ = distance_ - (elapsed_seconds*velocity_\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.539511] (dummy_node1) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.539567] (dummy_node1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/this_thread_sleep.h:38\x1b[m\x1b[K,\n'}
+[7.539623] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/thread:44\x1b[m\x1b[K,\n'}
+[7.539678] (dummy_node1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:3\x1b[m\x1b[K:\n'}
+[7.539734] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1042:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.539793] (dummy_node1) StderrLine: {'line': b' 1042 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K-(const time_point<_Clock, _Dur1>& __lhs,\n'}
+[7.539849] (dummy_node1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.539904] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1042:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.539959] (dummy_node1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:88:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::time_point<_Clock, _Duration1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.540016] (dummy_node1) StderrLine: {'line': b'   88 |       distanceToTarget_ = distance_ - (elapsed_seconds*velocity_\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.540071] (dummy_node1) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.618693] (-) TimerEvent: {}
+[7.720350] (-) TimerEvent: {}
+[7.829272] (-) TimerEvent: {}
+[7.932844] (-) TimerEvent: {}
+[8.034395] (-) TimerEvent: {}
+[8.138799] (-) TimerEvent: {}
+[8.239458] (-) TimerEvent: {}
+[8.358710] (-) TimerEvent: {}
+[8.396726] (dummy_node1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o] Error 1\n'}
+[8.397021] (dummy_node1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Error 2\n'}
+[8.397114] (dummy_node1) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.423990] (dummy_node1) CommandEnded: {'returncode': 2}
+[8.459470] (-) TimerEvent: {}
+[8.540565] (dummy_node1) JobEnded: {'identifier': 'dummy_node1', 'rc': 2}
+[8.551976] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+[0.127s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node2': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node2 -- -j4 -l4
+[0.208s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.231s] [ 33%] Built target dummy_cpp_node
+[0.241s] [ 66%] Built target dummy_client
+[0.247s] [ 83%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o[0m
+[3.354s] [100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[3.561s] [100%] Built target action_client
+[3.576s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node2' returned '0': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node2 -- -j4 -l4
+[3.655s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node2': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/dummy_node2
+[3.663s] -- Install configuration: ""
+[3.663s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/lib/dummy_node2/dummy_cpp_node
+[3.663s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node2/lib/libaction_client.so
+[3.663s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node2/lib/libaction_client.so" to ""
+[3.664s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/lib/libdummy_client.so
+[3.664s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//config
+[3.665s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//config/dummy_config.yaml
+[3.665s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//launch
+[3.665s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//launch/dummy.launch.py
+[3.665s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/package_run_dependencies/dummy_node2
+[3.665s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/parent_prefix_path/dummy_node2
+[3.665s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/ament_prefix_path.sh
+[3.665s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/ament_prefix_path.dsv
+[3.665s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/path.sh
+[3.665s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/path.dsv
+[3.666s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.bash
+[3.666s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.sh
+[3.666s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.zsh
+[3.666s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.dsv
+[3.666s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/package.dsv
+[3.666s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/packages/dummy_node2
+[3.666s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/rclcpp_components/dummy_node2
+[3.666s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/cmake/dummy_node2Config.cmake
+[3.666s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/cmake/dummy_node2Config-version.cmake
+[3.666s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/package.xml
+[3.668s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node2' returned '0': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/dummy_node2

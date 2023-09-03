@@ -1,0 +1,7 @@
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Kvoid action_cpp::CustomActionClient::send_goal()[m[K’:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+   34 |   [01;31m[Kgoal[m[K.line_velocity = 2;
+      |   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

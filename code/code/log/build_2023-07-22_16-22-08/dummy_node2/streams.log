@@ -1,0 +1,48 @@
+[0.234s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node2 -- -j4 -l4
+[0.251s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.937s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.997s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.002s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.011s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.029s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.180s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.182s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.330s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.662s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.926s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.064s] -- Found interfaces: 0.0.0 (/home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake)
+[2.362s] -- Configuring done
+[2.450s] -- Generating done
+[2.493s] -- Build files have been written to: /home/joannerizkallah/assignment3/build/dummy_node2
+[2.600s] [ 16%] [32mBuilding CXX object CMakeFiles/dummy_cpp_node.dir/rclcpp_components/node_main_dummy_cpp_node.cpp.o[0m
+[2.633s] [ 33%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o[0m
+[2.644s] [ 50%] [32mBuilding CXX object CMakeFiles/dummy_client.dir/src/dummy_cpp_lib.cpp.o[0m
+[2.698s] [ 66%] [32m[1mLinking CXX shared library libdummy_client.so[0m
+[2.826s] [ 66%] Built target dummy_client
+[10.251s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:[m[K In constructor ‘[01m[Kaction_cpp::CustomActionClient::CustomActionClient(const rclcpp::NodeOptions&)[m[K’:
+[10.251s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:28:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[10.251s]    28 |       std::bind(&CustomActionClient::send_goal, this)[01;31m[K)[m[K;
+[10.251s]       |                                                      [01;31m[K^[m[K
+[10.368s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.369s]                  from [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:9[m[K:
+[10.369s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Kvoid action_cpp::CustomActionClient::result_callback(const rclcpp_action::ClientGoalHandle<interfaces::action::Custom>::WrappedResult&)[m[K’:
+[10.369s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:91:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst rclcpp_action::ClientGoalHandle<interfaces::action::Custom>::WrappedResult[m[K’
+[10.369s]    91 |     RCLCPP_INFO(this->get_logger(), result[01;31m[K->[m[Ksuccess);
+[10.369s]       |                                           [01;31m[K^~[m[K
+[11.565s] [ 83%] [32m[1mLinking CXX executable dummy_cpp_node[0m
+[11.742s] [ 83%] Built target dummy_cpp_node
+[11.838s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o] Error 1
+[11.840s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_client.dir/all] Error 2
+[11.841s] gmake: *** [Makefile:146: all] Error 2
+[11.844s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node2 -- -j4 -l4

@@ -1,0 +1,57 @@
+[0.086s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node1': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node1:/home/joannerizkallah/assignment3/install/dummy_node2:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node1 -- -j4 -l4
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target dummy_server[0m
+[0.152s] [35m[1mConsolidate compiler generated dependencies of target dummy_cpp_node[0m
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.197s] [ 33%] Built target dummy_server
+[0.201s] [ 66%] Built target dummy_cpp_node
+[0.210s] [ 83%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o[0m
+[5.157s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse action_cpp::CustomActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Custom_Goal_<std::allocator<void> > >)[m[K’:
+[5.157s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:40:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.157s]    40 |     [01;35m[Kstd::shared_ptr<const Custom::Goal> goal[m[K)
+[5.157s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.171s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.172s]                  from [01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:6[m[K:
+[5.172s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Kvoid action_cpp::CustomActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Custom> >)[m[K’:
+[5.172s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:92:39:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[5.172s]    92 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Distance left to target: "[m[K, distanceToTarget_);
+[5.172s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.536s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[6.936s] [100%] Built target action_server
+[6.955s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node1' returned '0': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node1:/home/joannerizkallah/assignment3/install/dummy_node2:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node1 -- -j4 -l4
+[7.027s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node1': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node1:/home/joannerizkallah/assignment3/install/dummy_node2:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/dummy_node1
+[7.036s] -- Install configuration: ""
+[7.036s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/lib/dummy_node1/dummy_cpp_node
+[7.036s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so
+[7.037s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so" to ""
+[7.037s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libdummy_server.so
+[7.037s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//config
+[7.038s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//config/dummy_config.yaml
+[7.038s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//launch
+[7.038s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//launch/dummy.launch.py
+[7.038s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/package_run_dependencies/dummy_node1
+[7.038s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/parent_prefix_path/dummy_node1
+[7.038s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/ament_prefix_path.sh
+[7.039s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/ament_prefix_path.dsv
+[7.039s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/path.sh
+[7.039s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/path.dsv
+[7.039s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.bash
+[7.039s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.sh
+[7.039s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.zsh
+[7.039s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.dsv
+[7.040s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/package.dsv
+[7.040s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/packages/dummy_node1
+[7.040s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/rclcpp_components/dummy_node1
+[7.040s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/cmake/dummy_node1Config.cmake
+[7.040s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/cmake/dummy_node1Config-version.cmake
+[7.041s] -- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/package.xml
+[7.067s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node1' returned '0': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node1:/home/joannerizkallah/assignment3/install/dummy_node2:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/dummy_node1

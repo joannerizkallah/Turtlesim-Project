@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o[0m
+[ 50%] Built target dummy_cpp_node
+[ 83%] Built target dummy_server
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:38:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstdmsgs[m[K’ was not declared in this scope
+   38 |         rclcpp::Publisher<[01;31m[Kstdmsgs[m[K::msg::String>::SharedPtr publisher;
+      |                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:38:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |         rclcpp::Publisher<stdmsgs::msg::String[01;31m[K>[m[K::SharedPtr publisher;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:38:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   38 |         rclcpp::Publisher<stdmsgs::msg::String>::[01;31m[KSharedPtr[m[K publisher;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:38:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ does not name a type
+   38 |         rclcpp::Publisher<stdmsgs::msg::String>::SharedPtr [01;31m[Kpublisher[m[K;
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse action_cpp::CustomActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Custom_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:43:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   43 |     [01;35m[Kstd::shared_ptr<const Custom::Goal> goal[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Kvoid action_cpp::CustomActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<interfaces::action::Custom> >)[m[K’:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:77:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   77 |    [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 1000);
+      |    [01;31m[K^~~~~~~~~~[m[K
+      |    [32m[Krmw_publisher_t[m[K
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:99:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+   99 |       [01;31m[Kpub[m[K.publish(msg);
+      |       [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

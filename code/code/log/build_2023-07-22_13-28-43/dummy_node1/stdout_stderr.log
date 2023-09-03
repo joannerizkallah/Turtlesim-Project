@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o[0m
+[ 50%] Built target dummy_server
+[ 83%] Built target dummy_cpp_node
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse action_cpp::CustomActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Custom_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:40:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   40 |     [01;35m[Kstd::shared_ptr<const Custom::Goal> goal[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/dummy_node1/dummy_cpp_node
+-- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/dummy_node1/dummy_cpp_node" to ""
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so
+-- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so" to ""
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libdummy_server.so
+-- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/libdummy_server.so" to ""
+[31mCMake Error at cmake_install.cmake:112 (file):
+  file INSTALL cannot find
+  "/home/joannerizkallah/assignment3/src/dummy_node1/include/dummy_node1": No
+  such file or directory.
+
+[0m

@@ -1,0 +1,17 @@
+[0.090s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node2': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node2 -- -j4 -l4
+[0.255s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.323s] [ 33%] Built target dummy_client
+[0.329s] [ 66%] Built target dummy_cpp_node
+[0.333s] [ 83%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o[0m
+[8.346s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Kvoid action_cpp::CustomActionClient::send_goal()[m[K’:
+[8.346s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:48:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct interfaces::action::Custom_Goal_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kline_velocity[m[K’; did you mean ‘[01m[Klinear_velocity[m[K’?
+[8.347s]    48 |     goal_msg.[01;31m[Kline_velocity[m[K = 2;
+[8.347s]       |              [01;31m[K^~~~~~~~~~~~~[m[K
+[8.347s]       |              [32m[Klinear_velocity[m[K
+[8.354s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+[8.354s]    49 |     [01;31m[Kgoal[m[K.distance = 10;
+[8.354s]       |     [01;31m[K^~~~[m[K
+[11.965s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o] Error 1
+[11.967s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_client.dir/all] Error 2
+[11.967s] gmake: *** [Makefile:146: all] Error 2
+[11.969s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node2' returned '2': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node2 -- -j4 -l4

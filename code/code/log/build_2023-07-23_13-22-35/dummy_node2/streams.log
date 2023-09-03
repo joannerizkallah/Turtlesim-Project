@@ -1,0 +1,7 @@
+[0.121s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node2': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node2 -- -j4 -l4
+[0.286s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.320s] [ 33%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o[0m
+[0.320s] [ 50%] Built target dummy_cpp_node
+[0.334s] [ 83%] Built target dummy_client
+[4.763s] [100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[4.950s] [100%] Built target action_client

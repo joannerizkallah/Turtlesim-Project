@@ -1,0 +1,27 @@
+[ 33%] Built target dummy_client
+[ 66%] Built target dummy_cpp_node
+[100%] Built target action_client
+-- Install configuration: ""
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/lib/dummy_node2/dummy_cpp_node
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/lib/libaction_client.so
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/lib/libdummy_client.so
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//config
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//config/dummy_config.yaml
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//launch
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//launch/dummy.launch.py
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/package_run_dependencies/dummy_node2
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/parent_prefix_path/dummy_node2
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/path.sh
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/path.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.bash
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.sh
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.zsh
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/package.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/packages/dummy_node2
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/rclcpp_components/dummy_node2
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/cmake/dummy_node2Config.cmake
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/cmake/dummy_node2Config-version.cmake
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/package.xml

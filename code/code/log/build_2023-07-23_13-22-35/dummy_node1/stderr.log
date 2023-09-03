@@ -1,0 +1,12 @@
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse action_cpp::CustomActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Custom_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:40:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   40 |     [01;35m[Kstd::shared_ptr<const Custom::Goal> goal[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:112:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  112 |  auto action_server = std::make_shared(action_cpp::CustomActionServer[01;31m[K)[m[K;
+      |                                                                      [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

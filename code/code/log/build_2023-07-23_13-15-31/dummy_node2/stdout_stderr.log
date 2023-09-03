@@ -1,0 +1,55 @@
+[35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[ 33%] Built target dummy_cpp_node
+[ 50%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o[0m
+[ 83%] Built target dummy_client
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:9[m[K:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Kvoid action_cpp::CustomActionClient::feedback_callback(rclcpp_action::ClientGoalHandle<interfaces::action::Custom>::SharedPtr, std::shared_ptr<const interfaces::action::Custom_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:81:7:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kinterfaces::action::Custom_Feedback_<std::allocator<void> >::_distance_to_target_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   81 |       [01;35m[K"Distance left is %ld"[m[K, [32m[Kfeedback->distance_to_target[m[K);
+      |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[K|[m[K
+      |                                         [32m[Kinterfaces::action::Custom_Feedback_<std::allocator<void> >::_distance_to_target_type {aka double}[m[K
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:81:27:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   81 |       "Distance left is [01;36m[K%ld[m[K", feedback->distance_to_target);
+      |                         [01;36m[K~~^[m[K
+      |                           [01;36m[K|[m[K
+      |                           [01;36m[Klong int[m[K
+      |                         [32m[K%f[m[K
+[100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[100%] Built target action_client
+-- Install configuration: ""
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/lib/dummy_node2/dummy_cpp_node
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node2/lib/libaction_client.so
+-- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node2/lib/libaction_client.so" to ""
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/lib/libdummy_client.so
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//config
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//config/dummy_config.yaml
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//launch
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2//launch/dummy.launch.py
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/package_run_dependencies/dummy_node2
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/parent_prefix_path/dummy_node2
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/path.sh
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/environment/path.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.bash
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.sh
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.zsh
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/local_setup.dsv
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/package.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/packages/dummy_node2
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/ament_index/resource_index/rclcpp_components/dummy_node2
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/cmake/dummy_node2Config.cmake
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/cmake/dummy_node2Config-version.cmake
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node2/share/dummy_node2/package.xml

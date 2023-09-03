@@ -1,0 +1,4 @@
+Invoking command in '/home/joannerizkallah/assignment3/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/interfaces -- -j4 -l4
+Invoked command in '/home/joannerizkallah/assignment3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/interfaces -- -j4 -l4
+Invoking command in '/home/joannerizkallah/assignment3/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/interfaces
+Invoked command in '/home/joannerizkallah/assignment3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/interfaces

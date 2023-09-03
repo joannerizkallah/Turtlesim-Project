@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o[0m
+[ 50%] Built target dummy_server
+[ 83%] Built target dummy_cpp_node
+[100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/dummy_node1/dummy_cpp_node
+-- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/dummy_node1/dummy_cpp_node" to ""
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so
+-- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so" to ""
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libdummy_server.so
+-- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/libdummy_server.so" to ""

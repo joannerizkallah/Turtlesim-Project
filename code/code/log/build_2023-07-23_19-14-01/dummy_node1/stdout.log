@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[ 33%] Built target dummy_server
+[ 66%] Built target dummy_cpp_node
+[ 83%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[100%] Built target action_server
+-- Install configuration: ""
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/lib/dummy_node1/dummy_cpp_node
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so
+-- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so" to ""
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libdummy_server.so
+-- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/libdummy_server.so" to ""
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//config
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//config/dummy_config.yaml
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//launch
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//launch/dummy.launch.py
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/package_run_dependencies/dummy_node1
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/parent_prefix_path/dummy_node1
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/ament_prefix_path.sh
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/path.sh
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/path.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.bash
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.sh
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.zsh
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.dsv
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/package.dsv
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/packages/dummy_node1
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/rclcpp_components/dummy_node1
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/cmake/dummy_node1Config.cmake
+-- Up-to-date: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/cmake/dummy_node1Config-version.cmake
+-- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/package.xml

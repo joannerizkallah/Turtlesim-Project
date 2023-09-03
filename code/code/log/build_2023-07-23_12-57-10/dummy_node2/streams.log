@@ -1,0 +1,12 @@
+[0.049s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node2': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node2 -- -j4 -l4
+[0.202s] [ 16%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o[0m
+[0.209s] [ 50%] Built target dummy_client
+[0.234s] [ 83%] Built target dummy_cpp_node
+[7.708s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:[m[K In constructor ‘[01m[Kaction_cpp::CustomActionClient::CustomActionClient(const rclcpp::NodeOptions&)[m[K’:
+[7.709s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:22:44:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kaction_cpp::CustomActionClient[m[K’ does not have any field named ‘[01m[Kgoal_done_[m[K’
+[7.709s]    22 |   : Node("custom_action_client", options), [01;31m[Kgoal_done_[m[K(false)
+[7.709s]       |                                            [01;31m[K^~~~~~~~~~[m[K
+[9.299s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o] Error 1
+[9.301s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_client.dir/all] Error 2
+[9.302s] gmake: *** [Makefile:146: all] Error 2
+[9.305s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node2' returned '2': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node2 -- -j4 -l4

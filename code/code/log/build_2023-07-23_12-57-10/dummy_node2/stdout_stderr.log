@@ -1,0 +1,10 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o[0m
+[ 50%] Built target dummy_client
+[ 83%] Built target dummy_cpp_node
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:[m[K In constructor ‘[01m[Kaction_cpp::CustomActionClient::CustomActionClient(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:22:44:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kaction_cpp::CustomActionClient[m[K’ does not have any field named ‘[01m[Kgoal_done_[m[K’
+   22 |   : Node("custom_action_client", options), [01;31m[Kgoal_done_[m[K(false)
+      |                                            [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,9 @@
+[0.114s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node1': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node1 -- -j4 -l4
+[0.197s] [31mCMake Error at CMakeLists.txt:18:
+[0.197s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.202s] 
+[0.202s] [0m
+[0.203s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.220s] -- Configuring incomplete, errors occurred!
+[0.220s] See also "/home/joannerizkallah/assignment3/build/dummy_node1/CMakeFiles/CMakeOutput.log".
+[0.236s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node1' returned '2': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node1 -- -j4 -l4

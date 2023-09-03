@@ -1,0 +1,7 @@
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+    6 | #include [01;31m[K<nlohmann/json.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:158: CMakeFiles/action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

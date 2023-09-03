@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[ 33%] Built target dummy_client
+[ 66%] Built target dummy_cpp_node
+[ 83%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o[0m
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Kvoid action_cpp::CustomActionClient::send_goal()[m[K’:
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:52:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst class nlohmann::json_abi_v3_11_2::basic_json<>[m[K’} has no member named ‘[01m[Kstod[m[K’
+   52 |         double v = command["linear_velocity"].[01;31m[Kstod[m[K();
+      |                                               [01;31m[K^~~~[m[K
+[01m[K/home/joannerizkallah/assignment3/src/dummy_node2/src/dummy_cpp_node.cpp:53:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst value_type[m[K’ {aka ‘[01m[Kconst class nlohmann::json_abi_v3_11_2::basic_json<>[m[K’} has no member named ‘[01m[Kstod[m[K’
+   53 |         double d = command["distance"].[01;31m[Kstod[m[K();
+      |                                        [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/dummy_cpp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:158: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

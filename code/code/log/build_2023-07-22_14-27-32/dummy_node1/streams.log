@@ -1,0 +1,63 @@
+[0.016s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node1': AMENT_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node1 -- -j4 -l4
+[0.057s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.198s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.233s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.243s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.248s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.348s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.479s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.668s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.763s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.820s] -- Found interfaces: 0.0.0 (/home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake)
+[0.951s] -- Configuring done
+[0.994s] -- Generating done
+[0.999s] -- Build files have been written to: /home/joannerizkallah/assignment3/build/dummy_node1
+[1.033s] [35m[1mConsolidate compiler generated dependencies of target dummy_server[0m
+[1.033s] [35m[1mConsolidate compiler generated dependencies of target dummy_cpp_node[0m
+[1.034s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[1.050s] [ 16%] [32mBuilding CXX object CMakeFiles/dummy_server.dir/src/dummy_cpp_lib.cpp.o[0m
+[1.060s] [ 33%] [32mBuilding CXX object CMakeFiles/dummy_cpp_node.dir/rclcpp_components/node_main_dummy_cpp_node.cpp.o[0m
+[1.060s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o[0m
+[1.114s] [ 66%] [32m[1mLinking CXX shared library libdummy_server.so[0m
+[1.199s] [ 66%] Built target dummy_server
+[4.116s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse action_cpp::CustomActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const interfaces::action::Custom_Goal_<std::allocator<void> > >)[m[K’:
+[4.116s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:40:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.117s]    40 |     [01;35m[Kstd::shared_ptr<const Custom::Goal> goal[m[K)
+[4.117s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.883s] [ 83%] [32m[1mLinking CXX executable dummy_cpp_node[0m
+[4.891s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[5.027s] [100%] Built target dummy_cpp_node
+[5.094s] [100%] Built target action_server
+[5.109s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node1' returned '0': AMENT_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node1 -- -j4 -l4
+[5.222s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node1': AMENT_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/dummy_node1
+[5.233s] -- Install configuration: ""
+[5.233s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/dummy_node1/dummy_cpp_node
+[5.235s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/dummy_node1/dummy_cpp_node" to ""
+[5.235s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so
+[5.235s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/libaction_server.so" to ""
+[5.235s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/lib/libdummy_server.so
+[5.236s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/dummy_node1/lib/libdummy_server.so" to ""
+[5.237s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//config
+[5.237s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//config/dummy_config.yaml
+[5.237s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//launch
+[5.238s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1//launch/dummy.launch.py
+[5.238s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/package_run_dependencies/dummy_node1
+[5.238s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/parent_prefix_path/dummy_node1
+[5.239s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/ament_prefix_path.sh
+[5.239s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/ament_prefix_path.dsv
+[5.239s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/path.sh
+[5.239s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/environment/path.dsv
+[5.239s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.bash
+[5.239s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.sh
+[5.241s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.zsh
+[5.242s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/local_setup.dsv
+[5.242s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/package.dsv
+[5.242s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/packages/dummy_node1
+[5.242s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/ament_index/resource_index/rclcpp_components/dummy_node1
+[5.243s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/cmake/dummy_node1Config.cmake
+[5.243s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/cmake/dummy_node1Config-version.cmake
+[5.243s] -- Installing: /home/joannerizkallah/assignment3/install/dummy_node1/share/dummy_node1/package.xml
+[5.248s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node1' returned '0': AMENT_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/dummy_node1

@@ -1,0 +1,13 @@
+[0.145s] Invoking command in '/home/joannerizkallah/assignment3/build/dummy_node1': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node1 -- -j4 -l4
+[0.296s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.314s] [ 33%] Built target dummy_server
+[0.352s] [ 66%] Built target dummy_cpp_node
+[0.365s] [ 83%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o[0m
+[0.570s] [01m[K/home/joannerizkallah/assignment3/src/dummy_node1/src/dummy_cpp_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[0.571s]     4 | #include [01;31m[K<ros/ros.h>[m[K
+[0.571s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.571s] compilation terminated.
+[0.574s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/dummy_cpp_node.cpp.o] Error 1
+[0.577s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_server.dir/all] Error 2
+[0.578s] gmake: *** [Makefile:146: all] Error 2
+[0.582s] Invoked command in '/home/joannerizkallah/assignment3/build/dummy_node1' returned '2': CMAKE_PREFIX_PATH=/home/joannerizkallah/assignment3/install/interfaces:/home/joannerizkallah/assignment3/install/dummy_node2:/home/joannerizkallah/assignment3/install/dummy_node1:/opt/ros/humble LD_LIBRARY_PATH=/home/joannerizkallah/assignment3/install/interfaces/lib:/home/joannerizkallah/assignment3/install/dummy_node2/lib:/home/joannerizkallah/assignment3/install/dummy_node1/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/dummy_node1 -- -j4 -l4

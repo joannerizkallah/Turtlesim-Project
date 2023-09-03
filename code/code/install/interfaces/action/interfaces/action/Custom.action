@@ -1,0 +1,6 @@
+float64 linear_velocity # Speed at which the bot should move #GOALLL
+float64 distance # Distance that the bot should travel #GOALLLL
+---
+bool success # Wether the action succeeded #RESULTT
+---
+float64 distance_to_target # Remaining distance to reach the target #FEEDBACKK

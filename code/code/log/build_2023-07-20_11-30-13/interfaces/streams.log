@@ -1,0 +1,231 @@
+[0.011s] Invoking command in '/home/joannerizkallah/assignment3/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/joannerizkallah/assignment3/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/joannerizkallah/assignment3/install/interfaces
+[0.189s] -- The C compiler identification is GNU 11.3.0
+[0.268s] -- The CXX compiler identification is GNU 11.3.0
+[0.278s] -- Detecting C compiler ABI info
+[0.410s] -- Detecting C compiler ABI info - done
+[0.417s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.417s] -- Detecting C compile features
+[0.418s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.600s] -- Detecting CXX compiler ABI info - done
+[0.608s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.608s] -- Detecting CXX compile features
+[0.609s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.861s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.971s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.974s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.980s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.020s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.058s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.575s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.035s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.813s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.815s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.851s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.852s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.852s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.853s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.880s] -- Found PythonExtra: .so  
+[2.927s] -- Added test 'lint_cmake' to check CMake code style
+[2.929s] -- Added test 'xmllint' to check XML markup files
+[2.934s] -- Configuring done
+[2.977s] -- Generating done
+[2.981s] -- Build files have been written to: /home/joannerizkallah/assignment3/build/interfaces
+[3.005s] Invoked command in '/home/joannerizkallah/assignment3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/joannerizkallah/assignment3/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/joannerizkallah/assignment3/install/interfaces
+[3.008s] Invoking command in '/home/joannerizkallah/assignment3/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/interfaces -- -j4 -l4
+[3.110s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.126s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.136s] [  6%] Built target ament_cmake_python_copy_interfaces
+[3.513s] running egg_info
+[3.561s] creating interfaces.egg-info
+[3.561s] writing interfaces.egg-info/PKG-INFO
+[3.564s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[3.565s] writing top-level names to interfaces.egg-info/top_level.txt
+[3.565s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.568s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.569s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[3.659s] [  6%] Built target ament_cmake_python_build_interfaces_egg
+[3.913s] [  6%] Built target interfaces__cpp
+[3.973s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.016s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.016s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.048s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/custom__functions.c.o[0m
+[4.311s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[4.440s] [ 22%] Built target interfaces__rosidl_generator_c
+[4.538s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.905s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/custom__type_support.cpp.o[0m
+[4.943s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/custom__type_support.cpp.o[0m
+[5.039s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/custom__type_support.cpp.o[0m
+[5.499s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/custom__type_support_c.cpp.o[0m
+[5.697s] [ 41%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[5.799s] [ 41%] Built target interfaces__rosidl_typesupport_cpp
+[5.818s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.927s] [ 48%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.931s] [ 51%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.118s] [ 51%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[6.150s] [ 51%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[6.169s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.259s] [ 58%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.382s] [ 58%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[6.513s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/custom__type_support.c.o[0m
+[6.602s] [ 64%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[6.686s] [ 64%] Built target interfaces__rosidl_typesupport_introspection_c
+[6.692s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/custom__type_support.cpp.o[0m
+[6.764s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[6.840s] [ 70%] Built target interfaces__rosidl_typesupport_c
+[6.876s] [ 70%] Built target interfaces
+[6.910s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.087s] [ 74%] Built target interfaces__py
+[8.136s] [ 77%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_custom_s.c.o[0m
+[8.317s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[8.387s] [ 80%] Built target interfaces__rosidl_generator_py
+[8.430s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.430s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.430s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.672s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.688s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.701s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.791s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[8.800s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.809s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[8.830s] Invoked command in '/home/joannerizkallah/assignment3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/joannerizkallah/assignment3/build/interfaces -- -j4 -l4
+[9.046s] Invoking command in '/home/joannerizkallah/assignment3/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/interfaces
+[9.061s] -- Install configuration: ""
+[9.061s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[9.073s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces
+[9.073s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg
+[9.073s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.073s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action
+[9.073s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/custom.h
+[9.073s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail
+[9.074s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__type_support.h
+[9.074s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__struct.h
+[9.074s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__functions.h
+[9.074s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__functions.c
+[9.074s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/library_path.sh
+[9.074s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/library_path.dsv
+[9.074s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[9.074s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[9.074s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces
+[9.074s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg
+[9.076s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.076s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action
+[9.076s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail
+[9.076s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__rosidl_typesupport_fastrtps_c.h
+[9.076s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[9.076s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.076s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces
+[9.076s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg
+[9.076s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.076s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action
+[9.076s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail
+[9.076s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__rosidl_typesupport_introspection_c.h
+[9.076s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__type_support.c
+[9.077s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[9.077s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.077s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[9.077s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[9.077s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces
+[9.077s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action
+[9.077s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail
+[9.077s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__struct.hpp
+[9.077s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__traits.hpp
+[9.077s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__builder.hpp
+[9.077s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/custom.hpp
+[9.077s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces
+[9.077s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg
+[9.077s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.077s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action
+[9.077s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail
+[9.077s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__rosidl_typesupport_fastrtps_cpp.hpp
+[9.077s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps
+[9.078s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.078s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.078s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces
+[9.078s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action
+[9.078s] -- Up-to-date: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail
+[9.078s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__type_support.cpp
+[9.078s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/include/interfaces/interfaces/action/detail/custom__rosidl_typesupport_introspection_cpp.hpp
+[9.078s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[9.078s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.078s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[9.084s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[9.084s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/pythonpath.sh
+[9.084s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[9.084s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[9.084s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.084s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[9.084s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.084s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[9.084s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[9.084s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_custom.py
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_custom_s.c
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[9.085s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.117s] Listing '/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[9.117s] Compiling '/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[9.117s] Listing '/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...
+[9.117s] Compiling '/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py'...
+[9.117s] Compiling '/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_custom.py'...
+[9.127s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.127s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.128s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.128s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.128s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.129s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.129s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[9.130s] -- Set runtime path of "/home/joannerizkallah/assignment3/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[9.130s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/action/Custom.idl
+[9.130s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/action/Custom.action
+[9.130s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/action/interfaces//action
+[9.130s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/action/interfaces//action/Custom.action
+[9.130s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[9.131s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[9.131s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[9.131s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[9.131s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/path.sh
+[9.132s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/environment/path.dsv
+[9.132s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/local_setup.bash
+[9.132s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/local_setup.sh
+[9.132s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/local_setup.zsh
+[9.132s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/local_setup.dsv
+[9.133s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/package.dsv
+[9.133s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[9.133s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[9.133s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.133s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.133s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.133s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.133s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.134s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[9.134s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.134s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[9.134s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.134s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.134s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.134s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.135s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[9.135s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.136s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[9.136s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.136s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[9.136s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.136s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.136s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.137s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.137s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.137s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.137s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[9.138s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[9.138s] -- Installing: /home/joannerizkallah/assignment3/install/interfaces/share/interfaces/package.xml
+[9.141s] Invoked command in '/home/joannerizkallah/assignment3/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/joannerizkallah/assignment3/build/interfaces

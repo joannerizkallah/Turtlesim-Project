@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces/action/Custom.action
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module action {
+    struct Custom_Goal {
+      @verbatim (language="comment", text=
+        "Speed at which the bot should move #GOALLL")
+      double linear_velocity;
+
+      @verbatim (language="comment", text=
+        "Distance that the bot should travel #GOALLLL")
+      double distance;
+    };
+    struct Custom_Result {
+      @verbatim (language="comment", text=
+        "Wether the action succeeded #RESULTT")
+      boolean success;
+    };
+    struct Custom_Feedback {
+      @verbatim (language="comment", text=
+        "Remaining distance to reach the target #FEEDBACKK")
+      double distance_to_target;
+    };
+  };
+};
